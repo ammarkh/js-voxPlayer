@@ -1,0 +1,151 @@
+.voxPlayerContainer {
+    border: 1px solid gray;
+    box-shadow: 2px 2px lightgray;
+    background-color: rgb(30, 30, 30);
+    display: inline-block;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+.voxPlayerContainerFullScreen {
+    width: 100%;
+    height: 100%;
+}
+
+.voxPlayerVideoContainer {
+    width: 640px;
+    height: 350px;
+    position: relative;
+}
+
+.voxPlayerVideo {
+    width: 100%;
+    height: 100%;
+}
+
+.voxPlayerVideo::-webkit-media-controls {
+    display: none !important;
+}
+
+.voxSeek {
+    width: 100%;
+    height: 8px;
+    background-color: rgb(90, 90, 90);
+    margin-top: 1px;
+    position: relative;
+    z-index: 2147483647 !important;
+}
+
+.voxSeekFullScreen {
+    z-index: 10000000 !important;
+    position: absolute;
+}
+
+.voxSeekCtrl {
+    background-color: rgb(20, 90, 140);
+    height: 8px;
+    width: 0%;
+    position: absolute;
+}
+
+.voxVBufferdSeek {
+    width: 0%;
+    height: 8px;
+    background-color: rgb(180, 180, 180);
+    position: absolute;
+}
+
+.voxSeekCtrl :hover,
+.voxSeek:hover {
+    cursor: pointer
+}
+
+.voxCtrl {
+    width: 100%;
+    height: 20px;
+    color: rgb(30, 30, 30);
+    padding: 2px;
+    z-index: 2147483647 !important;
+}
+
+.voxCtrl>* {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin: 0 10px;
+    /* outline: red solid 1px;*/
+    cursor: pointer;
+    z-index: 2147483647 !important;
+}
+
+.voxTimer {
+    color: white;
+    font-family: sans-serif;
+    line-height: 22px;
+    cursor: default;
+    z-index: 2147484000 !important;
+}
+
+.voxSnd {
+    width: 100px;
+    height: 6px;
+    background-color: rgb(80, 80, 80);
+    margin-left: -5px;
+    outline: 0.5px solid lightgray;
+}
+
+.voxFullScreen {
+    float: right;
+}
+
+.voxSndCtrl {
+    width: 0%;
+    background-color: white;
+    height: 6px;
+}
+
+.voxSetting {
+    float: right;
+}
+
+.voxUp_layer {
+    background-color: rgba(80, 80, 80, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    line-height: 360px;
+    text-align: center;
+    top: 0px;
+    z-index: 1 !important;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.voxUp_layer img {
+    vertical-align: middle;
+    width: 10%;
+    height: 20%;
+    cursor: pointer;
+}
+
+.displayOn {
+    display: block;
+}
+
+.displayOff {
+    display: none;
+}
+
+.VoxPreview {
+    background-color: rgb(80, 80, 80);
+    width: 180px;
+    height: 100px;
+    position: absolute;
+}
+
+.VoxPreviewVid {
+    width: 180px;
+    height: 100px;
+}
