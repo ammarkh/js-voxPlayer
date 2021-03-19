@@ -66,6 +66,8 @@ voxPlayer.prototype = {
             set class, attribute for elements 
             push elements to player container 
         */
+
+        
         voxVc.setAttribute('class', 'voxPlayerVideoContainer');
 
         voxV.setAttribute('class', 'voxPlayerVideo');

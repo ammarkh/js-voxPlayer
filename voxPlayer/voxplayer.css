@@ -57,8 +57,7 @@
     position: absolute;
 }
 
-.voxSeekCtrl :hover,
-.voxSeek:hover {
+.voxSeekCtrl :hover, .voxSeek:hover {
     cursor: pointer
 }
 
